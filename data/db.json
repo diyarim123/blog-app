@@ -1,0 +1,28 @@
+{
+  "blogs": [
+    {
+      "title": "Food Blog",
+      "body": "\"which specializes in 100% vegan recipes. Know that the work also comes with great perks. \"",
+      "author": "Aland",
+      "id": 2
+    },
+    {
+      "title": "Travel Blog",
+      "body": "Make 2023 the season to see Australia! With the early release of Journey Beyond is Rail Expeditions aboard The Ghan and Indian Pacific you do not need to stop dreaming or planning. New booking conditions are in place to offer you peace of mind and greater flexibility. Book your next rail journey with confidence knowing that you can change your travel date up to two weeks before departure free of charge. You’ll also enjoy reduced deposits and a continuation of this year is prices all available for a limited time.",
+      "author": "Yusuf",
+      "id": 3
+    },
+    {
+      "title": "Travel Blog",
+      "body": "Explore the magnificant Tasmanian coastline abraod our comfortable 42' yacht with an experienced skipper, gourmet Tasmanian produce and beverages, breathtaking scenery and native wildlife. We offer a range of cruise options, from three hours to three weeks, to provide you with the experience you are searching for. We have a range of boat tours, or call us to tailor a cruise to suit, or you can charter the yacht with crew by the day for your exclusive use.",
+      "author": "Kodo",
+      "id": 4
+    },
+    {
+      "title": "Programming",
+      "body": "Hello",
+      "author": "Diyari",
+      "id": 5
+    }
+  ]
+}

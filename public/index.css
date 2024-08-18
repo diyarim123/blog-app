@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Quicksand:wght@300;400&family=Roboto&display=swap');
+
+
+* {
+  border-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+
+
+
+
+/* The Navbar */
+
+
+.Logo {
+  font-family:cursive !important;
+  color: #7149C6;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+  margin: 0;
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+ul {
+  list-style: none;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+li {
+  margin: 0 1rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #7149C6;
+}
+li:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+/* Content Showing Blogs */
+
+.content {
+  max-width: 600px;
+  margin: 40px 17rem;
+  padding: 10px;
+}
+hr {
+  width: 65%;
+  color: rgb(176, 176, 176);
+}
+.blogTitle {
+  color: #7149C6;
+}
+.blogAuthor {
+  color: rgb(41, 41, 41);
+}
+.blogSubContainer {
+  border-radius: 1rem;
+  box-sizing: border-box;
+  position: relative;
+  padding: 1rem;
+}
+.blogSubContainer:hover {
+  transform: scale(1.01);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+/*Create New Blog Form */
+
+.create {
+  max-width: 400px;
+  margin: 5rem auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #7149C6;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin:  10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  color: white;
+  margin-top: 1rem;
+  background-color: #7149C6;
+  padding: .7rem .6rem .7rem .6rem;
+  font-weight: 600;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+
+
+
+
+/*Show Succed Blog Posted */
+
+
+#alert {
+  visibility: hidden;
+  min-width: 250px;
+  margin: auto;
+  background: #7149C6;
+  color: #fff;
+  bottom: 30px;
+  left: 42%;
+  text-align: center;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 1;
+}
+#alert.show {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+  animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+@-webkit-keyframes fadeIn{
+  from {
+      bottom: 0; 
+      opacity: 0;
+  }
+  to {
+      bottom: 30px;
+      opacity: 1;
+  }
+}
+@keyframes fadeOut{
+  from {
+      bottom: 30px;
+      opacity: 1;
+  }
+  to {
+      bottom: 0; 
+      opacity: 0;
+  }
+}
+
+
+
+
+
+/*Showing Blog Detail */
+.BlogDetail {
+  max-width: 600px;
+  margin: 40px 17rem;
+  padding: 10px;
+}
+.BlogDetail h2 {
+  color: #7149C6;
+}
+.BlogDetail button {
+  color: white;
+  background-color: #7149C6;
+  padding: .5rem .8rem .5rem .8rem;
+  font-weight: 600;
+  border: none;
+  border-radius: .6rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+
+
+/*Not Found Page*/
+
+.notFound {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  text-align: center;
+  margin: 40px 27rem;
+  padding: 10px;
+}
+.notFound h1 {
+  font-size: 5rem;
+  margin-left: 2rem;
+  color: #7149C6;
+}
+.notFound p {
+  width: 100%;
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+.notFound button {
+  color: white;
+  background-color: #7149C6;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: .6rem;
+  margin-left: 3rem;
+  cursor: pointer;
+}
